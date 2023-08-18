@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  border: 1px solid red;
 }
 
 .header {
@@ -26,10 +27,10 @@
 
 .characterWrapper {
   position: fixed;
+  left: 60%;
   max-width: 50%;
-  height: 90svh;
+  height: 85svh;
   min-height: 500px;
-  right: 0;
   /* HACK to centering: Equal distances from top and bottom and vertical margin auto */
   top: var(--main-offset-top);
   bottom: var(--main-offset-top);

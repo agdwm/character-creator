@@ -1,5 +1,5 @@
 .characterEditor {
-  padding-top: 128px;
+  padding-top: var(--main-offset-top);
   padding-bottom: 64px;
 }
 
@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +25,18 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  max-width: 50%;
+  height: 90svh;
+  min-height: 500px;
+  right: -5%;
+  /* HACK to centering: Equal distances from top and bottom and vertical margin auto */
+  top: var(--main-offset-top);
+  bottom: var(--main-offset-top);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .controlColumn {
+  width: 50%;
 }

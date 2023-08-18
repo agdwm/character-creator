@@ -2,4 +2,6 @@
   /* Grays */
   --light: hsl(180deg, 25%, 92%);
   --medium: hsl(195deg, 20%, 86%);
+
+  --main-offset-top: 128px;
 }

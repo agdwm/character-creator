@@ -9,6 +9,15 @@ body {
   margin: 0;
 }
 
+body:before {
+  content: '';
+  position: fixed;
+  height: 40vh;
+  width: 100vw;
+  background-color: var(--medium);
+  bottom: 0;
+}
+
 *,
 *:before,
 *:after {

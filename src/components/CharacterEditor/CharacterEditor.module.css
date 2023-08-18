@@ -29,7 +29,7 @@
   max-width: 50%;
   height: 90svh;
   min-height: 500px;
-  right: -5%;
+  right: 0;
   /* HACK to centering: Equal distances from top and bottom and vertical margin auto */
   top: var(--main-offset-top);
   bottom: var(--main-offset-top);

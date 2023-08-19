@@ -27,11 +27,11 @@
 
 .characterWrapper {
   position: fixed;
-  left: 60%;
   max-width: 50%;
   height: 85svh;
   min-height: 500px;
-  /* HACK to centering: Equal distances from top and bottom and vertical margin auto */
+  left: 60%;
+  /* HACK to centering: Equal distances from top and bottom and vertical margins auto */
   top: var(--main-offset-top);
   bottom: var(--main-offset-top);
   margin-top: auto;

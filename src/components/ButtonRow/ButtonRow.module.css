@@ -1,3 +1,10 @@
 .buttonRow {
+  overflow: auto;
   white-space: nowrap;
+  /* Undone the padding from the parent using negative margins*/
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-bottom: -24px;
+  /* Re-added padding inside the child in order to respect paddings inside the scroll */
+  padding: 24px;
 }
